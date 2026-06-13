@@ -1,0 +1,121 @@
+@import "./index.css";
+
+.mainBg{
+  @apply
+  absolute 
+  inset-0 
+  h-screen 
+  w-screen 
+  bg-mainbg-100 
+  bg-[linear-gradient(to_right,#f60b9412_1px,transparent_1px),linear-gradient(to_bottom,#f60b9412_1px,transparent_1px)] 
+  bg-size-[72px_60px]
+  font-display
+}
+
+.container{
+  @apply
+  w-full
+  h-full
+  p-6
+  border
+  border-mainbg-600
+  flex
+  flex-row
+  items-center
+  justify-center
+}
+.heading2{
+  @apply text-2xl font-semibold mb-6 text-gray-900
+}
+.topBar{
+  @apply
+  absolute
+  p-6
+  top-3
+  left-3
+  xl:top-12
+  xl:left-12
+}
+.logoContainer{
+  @apply
+  flex
+  flex-row
+  items-center
+  gap-2
+  
+}
+.logoSquare{
+  @apply
+  w-auto
+  h-full
+  px-2
+  py-1
+  bg-[linear-gradient(to_right,#ff3382,#ff643f)] 
+  rounded-md
+  flex
+  items-center
+  justify-center
+  text-mainbg-100
+  font-extralight
+  text-3xl
+  
+}
+.logoText{
+  @apply
+  font-bold
+  text-2xl
+  text-gray-700
+}
+
+.content{
+  @apply
+  relative
+  w-full
+  h-auto
+  xl:w-1/2
+  xl:h-3/4
+  xl:flex
+  xl:flex-row
+  xl:justify-between
+  p-3
+  bg-mainbg-100
+  border
+  border-gray-300
+  rounded-xl
+}
+.deco1{
+  @apply
+  absolute  w-2  h-2  bg-gray-400  rounded-full  top-1.5  left-1.5
+}
+.deco2{
+  @apply
+  absolute  w-2  h-2  bg-gray-400  rounded-full  top-1.5  right-1.5
+}
+.deco3{
+  @apply
+  absolute  w-2  h-2  bg-gray-400  rounded-full  bottom-1.5  left-1.5
+}
+.deco4{
+  @apply
+  absolute  w-2  h-2  bg-gray-400  rounded-full  bottom-1.5  right-1.5
+}
+.signingHeader{
+  @apply
+  xl:text-3xl   font-bold  m-4
+}
+.loginForm{
+  @apply
+  flex   items-center   justify-center
+}
+.loginFormContainer{
+  @apply
+  w-full max-w-md p-6 bg-white rounded-2xl shadow-md 
+}
+.signInButton{
+  @apply
+  w-full rounded-xl bg-gray-800 px-4 py-3 text-white font-semibold hover:bg-gray-900 transition cursor-pointer
+}
+.buttonWithIcon{
+  @apply
+  w-full inline-flex items-center justify-center gap-3 rounded-xl border border-gray-300 bg-white px-4 py-3 text-sm font-medium text-gray-700 shadow-sm transition duration-150 hover:bg-gray-50
+}

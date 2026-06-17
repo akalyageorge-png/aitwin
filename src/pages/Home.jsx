@@ -12,10 +12,10 @@ function Home() {
    <span className="deco2" />
    <span className="deco3" />
    <span className="deco4" />
-   <div className="hidden xl:block basis-1/2 h-full bg-radial from-pink-400 from-40% to-fuchsia-700 relative ">
+   <div className="hidden xl:block basis-1/2 h-auto bg-radial from-pink-400 from-40% to-fuchsia-700 relative ">
    <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-4xl text-white ">
       <p className="text-center leading-12 ">Your 
-        <span className="bg-white text-pink-500 px-2 mx-1 font-black"> AI Twin </span> is ready to Talk, sell and grow your brand 24/7</p>
+        <span className="bg-white text-pink-500 px-2 mx-1 font-black block"> AI Twin </span> is ready to Talk, sell and grow your brand 24/7</p>
    </div>
    </div>
    <div className="basis-1/2">

@@ -73,10 +73,10 @@
   w-full
   h-auto
   xl:w-1/2
-  xl:h-3/4
   xl:flex
   xl:flex-row
   xl:justify-between
+xl:gap-2
   p-3
   bg-mainbg-100
   border
@@ -109,7 +109,7 @@
 }
 .loginFormContainer{
   @apply
-  w-full max-w-md p-6 bg-white rounded-2xl shadow-md 
+  w-full max-w-xl p-6 bg-white rounded-2xl shadow-md 
 }
 .signInButton{
   @apply
